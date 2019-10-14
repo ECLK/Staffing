@@ -1,0 +1,9 @@
+# insert some institutions
+echo -n "Inserting Dehiwala MC: "
+curl -d '{"name": "Dehiwala MC", "address": { "line1": "99 MC Road", "line2": "Dehiwala"}, "phone": "011-273-3333", "fax": "011-273-4444", "divisionalSecretariat": "Dehiwala Mt Lavinia" }' -H 'Content-Type: application/json' -X POST http://localhost:9090/institution
+echo
+echo -n "Inserting Dehiwala MC: "
+curl -d '{"name": "Matara Central College", "address": { "line1": "58 Central College Road", "line2": "Matara"}, "phone": "041-333-3333", "fax": "041-444-4444", "divisionalSecretariat": "Matara Thotamuna" }' -H 'Content-Type: application/json' -X POST http://localhost:9090/institution
+echo
+
+# put some officers into 

@@ -8,7 +8,7 @@
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.3.1",
     "formik": "^1.5.8",
-    "handsontable": "^7.1.1",
+    "handsontable": "^10.0.0",
     "install": "^0.13.0",
     "react": "^16.10.2",
     "react-app-polyfill": "^1.0.4",
